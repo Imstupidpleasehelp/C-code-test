@@ -1,0 +1,13 @@
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.exe
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.deps.json
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.runtimeconfig.json
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.runtimeconfig.dev.json
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.dll
+C:\Users\notdy\Desktop\work\WERK\C# thing\bin\Debug\netcoreapp3.1\C# thing.pdb
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.csprojAssemblyReference.cache
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.AssemblyInfoInputs.cache
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.AssemblyInfo.cs
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.csproj.CoreCompileInputs.cache
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.dll
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.pdb
+C:\Users\notdy\Desktop\work\WERK\C# thing\obj\Debug\netcoreapp3.1\C# thing.genruntimeconfig.cache
