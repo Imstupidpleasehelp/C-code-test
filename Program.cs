@@ -8,11 +8,10 @@ namespace C__thing
         static void Main(string[] args)
         {
         WebClient webClient = new WebClient();
-    
+    //download the file 
 webClient.DownloadFile("http://ringba-test-html.s3-website-us-west-1.amazonaws.com/TestQuestions/output.txt", "output.txt" );
        
        
-        //dont console log this fucking beast 
          // 1.
         // Array to store frequencies.
         int[] c = new int[(int)char.MaxValue];
@@ -41,8 +40,17 @@ webClient.DownloadFile("http://ringba-test-html.s3-website-us-west-1.amazonaws.c
                     c[i]);
             }
         }
+        int countUpper = 0, x;
+        for (x = 0; x < textString.Length;x++ )
+        {
+            if (char.IsUpper(textString[x])) countUpper++;
+           
+
+        }Console.WriteLine("Number of capital letters: " + countUpper);
          }
+         //Done counting letters 
          
+          
     }
     
 }
