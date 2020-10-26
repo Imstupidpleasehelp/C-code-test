@@ -1,6 +1,14 @@
 ﻿using System;
 using System.Net;
+using System.Linq;
+using System.Text.RegularExpressions;
+/* 
 
+- How many of each letter are in the file X
+- How many letters are capitalized in the file X
+- The most common word and the number of times it has been seen. X
+- The most common 2 character prefix and the number of occurrences in the text file. As well as all the words that contain that prefix printed out in a comma separated form.
+*/ 
 namespace C__thing
 {
     class Program
@@ -47,10 +55,23 @@ webClient.DownloadFile("http://ringba-test-html.s3-website-us-west-1.amazonaws.c
            
 
         }Console.WriteLine("Number of capital letters: " + countUpper);
-         }
-         //Done counting letters 
          
-          
+         //Done counting letters 
+       //finding most common word 
+string source = textString;
+
+ var result = Regex
+   .Matches(source, "[A-Z][a-z]*")
+   .Cast<Match>()
+   .Select(match => match.Value)
+   .GroupBy(word => word)
+   .Select(group => (word : group.Key, count : group.Count()))
+   .OrderByDescending(pair => pair.count)
+   .First();
+
+ Console.Write($"{result.word} appears {result.count} time");   
+
+}
     }
     
 }
