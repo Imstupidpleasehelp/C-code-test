@@ -69,7 +69,7 @@ string source = textString;
    .OrderByDescending(pair => pair.count)
    .First();
 
- Console.Write($"{result.word} appears {result.count} times");   
+ Console.Write($"{result.word} is the most common word, and it appears {result.count} times");   
  // finding the most common prefix 
 
         }
